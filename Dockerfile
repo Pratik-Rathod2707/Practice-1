@@ -3,5 +3,5 @@ MAINTAINER PRATIK
 RUN apt-get update -y
 EXPOSE 8080
 CMD ["/usr/local/tomcat/bin/catalina.sh", "run"]
-RUN ctrl + p + q
+RUN exit
 
